@@ -1,21 +1,50 @@
 @use "../styles/variables" as *;
 @use "../styles/mixins" as *;
 
+.CarouselRegion {
+  display: flex;
+  flex-direction: column;
+  gap: $space-3;
+  padding: 0 $container-padding;
+
+  @include respond(md) {
+    padding: 0 $space-5;
+  }
+
+  @include respond(sm) {
+    padding: 0 $space-4;
+  }
+}
+
+.CarouselTitle {
+  font-size: $font-size-paragraph-large;
+  font-weight: 600;
+  margin: 0;
+}
+
+.VisuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .Carousel {
   display: flex;
   overflow-x: auto;
   gap: $space-4;
   width: 100%;
   scroll-snap-type: x mandatory;
-  padding: $space-4 $container-padding;
-
-  @include respond(md) {
-    padding: $space-4 $space-5;
-  }
-
-  @include respond(sm) {
-    padding: $space-4 $space-4;
-  }
+  scroll-behavior: smooth;
+  scroll-padding-inline: $space-4;
+  padding: $space-4 0;
+  list-style: none;
+  margin: 0;
 }
 
 .CarouselItem {
@@ -23,10 +52,16 @@
   width: 200px;
   height: 200px;
   scroll-snap-align: start;
+  scroll-snap-stop: always;
   flex: 0 0 auto;
 
   &:not(:last-child) {
     margin-right: $space-2;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-text;
+    outline-offset: 4px;
   }
 
   @include respond(sm) {
