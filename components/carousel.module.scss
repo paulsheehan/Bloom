@@ -1,25 +1,15 @@
 @use "../styles/variables" as *;
 @use "../styles/mixins" as *;
 
-.CarouselRegion {
-  display: flex;
-  flex-direction: column;
-  gap: $space-3;
-  padding: 0 $container-padding;
-  margin: 0 auto;
-  @include respond(md) {
-    padding: 0 $space-5;
-  }
-
-  @include respond(sm) {
-    padding: 0 $space-4;
-  }
-}
-
 .CarouselTitle {
   font-size: $font-size-paragraph-large;
   font-weight: 600;
   margin: 0;
+  margin-top: $space-26;
+  align-self: flex-start;
+  @include respond(md) {
+    margin-top: $space-10;
+  }
 }
 
 .VisuallyHidden {

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Style from "./whatWeDo.module.scss";
+import "../styles/_utilities.scss";
 
 const steps = [
   {
@@ -26,7 +27,7 @@ const steps = [
 
 export default function WhatWeDo() {
   return (
-    <section className={Style.Container} aria-labelledby="what-we-do-title">
+    <section className="container" aria-labelledby="what-we-do-title">
       <div className={Style.IntroText}>
         <h2 className={Style.Title}>What We Do</h2>
         <p className={Style.Description}>

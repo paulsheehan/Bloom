@@ -1,28 +1,10 @@
 @use "../styles/variables" as *;
 @use "../styles/mixins" as *;
 
-.Container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: $space-20 0;
-  padding: 0 $container-padding;
-
-  @include respond(md) {
-    margin: $space-16 0;
-    padding: 0 $space-5;
-  }
-
-  @include respond(sm) {
-    margin: $space-12 0;
-    padding: 0 $space-4;
-  }
-}
-
 .Title {
   text-transform: uppercase;
   font-size: $font-size-heading-1;
+  margin-top: $space-26;
   margin-bottom: $space-10;
 
   @include respond(sm) {

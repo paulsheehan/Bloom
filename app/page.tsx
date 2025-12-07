@@ -2,6 +2,7 @@ import Carousel from "../components/Carousel";
 import Hero from "../components/Hero";
 import WhoWeAre from "../components/WhoWeAre";
 import WhatWeDo from "../components/WhatWeDo";
+import WorkWithUs from "../components/WorkWithUs";
 
 export const metadata = {
   title: "Our Blooms | Fresh Flowers",
@@ -16,6 +17,7 @@ export default function Home() {
       <WhoWeAre />
       <Carousel />
       <WhatWeDo />
+      <WorkWithUs />
     </>
   );
 }

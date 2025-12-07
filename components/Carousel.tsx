@@ -4,7 +4,7 @@ import Style from "./carousel.module.scss";
 export default function Carousel() {
   return (
     <div
-      className={Style.CarouselRegion}
+      className="container"
       role="region"
       aria-roledescription="carousel"
       aria-label="Featured flowers"
