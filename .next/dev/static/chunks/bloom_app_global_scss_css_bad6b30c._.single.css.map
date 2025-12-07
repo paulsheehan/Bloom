@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/bloom/app/global.scss","turbopack:///turbopack:///[project]/bloom/app/variables.scss"],"sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap\");\n@import url(\"https://fonts.googleapis.com/css2?family=Caprasimo&:wght@500&display=swap\");\n@import \"./variables.scss\";\n/* styles/globals.css */\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\nbody {\n  font-family: \"Outfit\", sans-serif;\n  color: $regular-text;\n\n  display: block;\n  width: auto;\n  max-width: 1200px;\n\n  margin: 0 auto;\n  padding: 0 40px;\n}\n\na {\n  text-decoration: none;\n}\n\na:hover {\n  text-decoration: underline;\n}\n\nul {\n  list-style: none;\n}\n\n.btn {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n\n  background-color: $primary;\n  text-transform: uppercase;\n\n  width: 97px;\n  height: 29px;\n  font-size: 11px;\n\n  border-radius: 6px;\n  color: $regular-text;\n}\n","$regular-text: #333;\n$primary: #ffc800;\n"],"names":[],"mappings":"AAIA;;;;;;AAKA;;;;;;;;;;AAYA;;;;AAIA;;;;AAIA;;;;AAIA"}}]
-}

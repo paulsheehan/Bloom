@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/paulsheehan/Documents/webdev/bloom/components/hero.tsx"],"sourcesContent":["import Link from \"next/link\";\nimport Image from \"next/image\";\nimport Style from \"./hero.module.scss\";\n\nexport default function Hero() {\n  return (\n    <section>\n      <div>\n        <Image\n          src=\"/logo-desk.svg\"\n          height={100}\n          width={100}\n          alt=\"Our Blooms® logo\"\n        ></Image>\n      </div>\n      <div>\n        <Image\n          src=\"/hero-desk.png\"\n          fill={true}\n          alt=\"New '10% off first order' special\"\n        ></Image>\n      </div>\n    </section>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;;;AAGe,SAAS;IACtB,qBACE,uPAAC;;0BACC,uPAAC;0BACC,cAAA,uPAAC,iJAAK;oBACJ,KAAI;oBACJ,QAAQ;oBACR,OAAO;oBACP,KAAI;;;;;;;;;;;0BAGR,uPAAC;0BACC,cAAA,uPAAC,iJAAK;oBACJ,KAAI;oBACJ,MAAM;oBACN,KAAI;;;;;;;;;;;;;;;;;AAKd"}},
-    {"offset": {"line": 67, "column": 0}, "map": {"version":3,"sources":["file:///Users/paulsheehan/Documents/webdev/bloom/app/page.tsx"],"sourcesContent":["import Hero from \"../components/hero\";\n\nexport default function Home() {\n  return <Hero />;\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,uPAAC,uIAAI;;;;;AACd"}}]
-}

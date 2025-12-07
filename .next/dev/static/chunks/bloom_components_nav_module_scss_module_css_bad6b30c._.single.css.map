@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/bloom/components/nav.module.scss"],"sourcesContent":[".Nav {\n  display: flex;\n  align-items: center;\n  height: 82px;\n  border-bottom: 1px black solid;\n  a {\n    color: black;\n  }\n}\n.Logo {\n  font-size: 2rem;\n  padding: 20px 0;\n\n  font-family: \"Caprasimo\", sans-serif;\n}\n.Menu {\n  display: flex;\n  margin-left: auto;\n  .Items:not(:last-child) {\n    margin-right: 40px;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAKE;;;;AAIF;;;;;;AAMA;;;;;AAGE"}}]
-}

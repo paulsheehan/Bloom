@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/bloom/components/carousel.module.scss"],"sourcesContent":[".Carousel {\n  display: flex;\n  overflow-x: scroll;\n  width: 100%;\n}\n.CarouselItem {\n  position: relative;\n  width: 200px;\n  height: 200px;\n  &:not(last-child) {\n    margin-right: 20px;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAKA;;;;;;AAIE"}}]
-}

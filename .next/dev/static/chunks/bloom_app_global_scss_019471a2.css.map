@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/bloom/app/global.scss"],"sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap\");\n@import url(\"https://fonts.googleapis.com/css2?family=Caprasimo&:wght@500&display=swap\");\n/* styles/globals.css */\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\nbody {\n  font-family: \"Outfit\", sans-serif;\n  color: #333;\n\n  display: block;\n  width: auto;\n  max-width: 1200px;\n\n  margin: 0 auto;\n  padding: 0 40px;\n}\n\na {\n  text-decoration: none;\n}\n\na:hover {\n  text-decoration: underline;\n}\n\nh1 {\n  font-size: 12em;\n  color: orangered;\n}\n\nul {\n  list-style: none;\n}\n"],"names":[],"mappings":"AAGA;;;;;;AAKA;;;;;;;;;;AAYA;;;;AAIA;;;;AAIA;;;;;AAKA"}}]
-}
