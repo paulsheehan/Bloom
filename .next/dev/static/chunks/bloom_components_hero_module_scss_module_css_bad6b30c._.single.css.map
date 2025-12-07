@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/bloom/components/hero.module.scss"],"sourcesContent":[".Hero {\n  margin: 68px 40px 0 40px;\n  max-width: 1120px;\n}\n.HeroLogo {\n  position: relative;\n  width: auto;\n  margin-bottom: 44px;\n\n  font-family: \"Caprasimo\", sans-serif;\n  font-size: 9.3rem;\n}\n.HeroImage {\n  position: relative;\n}\n"],"names":[],"mappings":"AAAA;;;;;AAIA;;;;;;;;AAQA"}}]
+}

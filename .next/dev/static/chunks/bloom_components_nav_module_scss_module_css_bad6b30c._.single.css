@@ -1,0 +1,28 @@
+/* [project]/bloom/components/nav.module.scss.module.css [app-client] (css) */
+.nav-module-scss-module__X00ceW__Nav {
+  border-bottom: 1px solid #000;
+  align-items: center;
+  height: 82px;
+  display: flex;
+}
+
+.nav-module-scss-module__X00ceW__Nav a {
+  color: #000;
+}
+
+.nav-module-scss-module__X00ceW__Logo {
+  padding: 20px 0;
+  font-family: Caprasimo, sans-serif;
+  font-size: 2rem;
+}
+
+.nav-module-scss-module__X00ceW__Menu {
+  margin-left: auto;
+  display: flex;
+}
+
+.nav-module-scss-module__X00ceW__Menu .nav-module-scss-module__X00ceW__Items:not(:last-child) {
+  margin-right: 40px;
+}
+
+/*# sourceMappingURL=bloom_components_nav_module_scss_module_css_bad6b30c._.single.css.map*/

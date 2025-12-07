@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/bloom/components/whoWeAre.module.scss"],"sourcesContent":[".Container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n\n  text-align: center;\n\n  margin: 120px 0;\n}\n\n.Title {\n  text-transform: uppercase;\n  margin-bottom: 20px;\n  font-size: 14px;\n}\n\n.Desciption {\n  font-size: 40px;\n  margin-bottom: 40px;\n  max-width: 1000px;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAUA;;;;;;AAMA"}}]
+}

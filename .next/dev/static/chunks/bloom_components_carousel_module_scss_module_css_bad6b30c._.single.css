@@ -1,0 +1,18 @@
+/* [project]/bloom/components/carousel.module.scss.module.css [app-client] (css) */
+.carousel-module-scss-module__LT0U6a__Carousel {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.carousel-module-scss-module__LT0U6a__CarouselItem {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.carousel-module-scss-module__LT0U6a__CarouselItem:not(last-child) {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=bloom_components_carousel_module_scss_module_css_bad6b30c._.single.css.map*/

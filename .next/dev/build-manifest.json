@@ -1,0 +1,50 @@
+{
+  "pages": {
+    "/_app": [
+      "static/chunks/ca636_next_dist_compiled_92aa29ad._.js",
+      "static/chunks/ca636_next_dist_shared_lib_185835e8._.js",
+      "static/chunks/ca636_next_dist_client_acc0efb1._.js",
+      "static/chunks/ca636_next_dist_6887cbb6._.js",
+      "static/chunks/ca636_next_app_4acdcca4.js",
+      "static/chunks/[next]_entry_page-loader_ts_4239c9c8._.js",
+      "static/chunks/ca636_react-dom_a64c3793._.js",
+      "static/chunks/ca636_038fc9db._.js",
+      "static/chunks/[root-of-the-server]__b1f2ed54._.js",
+      "static/chunks/bloom_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-bloom_pages__app_f79d8342._.js"
+    ],
+    "/_error": [
+      "static/chunks/ca636_next_dist_compiled_92aa29ad._.js",
+      "static/chunks/ca636_next_dist_shared_lib_5d158901._.js",
+      "static/chunks/ca636_next_dist_client_acc0efb1._.js",
+      "static/chunks/ca636_next_dist_1acc7f5a._.js",
+      "static/chunks/ca636_next_error_81fea991.js",
+      "static/chunks/[next]_entry_page-loader_ts_fc92b9ce._.js",
+      "static/chunks/ca636_react-dom_a64c3793._.js",
+      "static/chunks/ca636_038fc9db._.js",
+      "static/chunks/[root-of-the-server]__78d3a7fe._.js",
+      "static/chunks/bloom_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-bloom_pages__error_008c85db._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/ca636_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_505a0160._.js",
+    "static/chunks/ca636_next_dist_compiled_react-dom_73125ff1._.js",
+    "static/chunks/ca636_next_dist_compiled_react-server-dom-turbopack_bb659457._.js",
+    "static/chunks/ca636_next_dist_compiled_next-devtools_index_b2bce0c6.js",
+    "static/chunks/ca636_next_dist_compiled_3b1a8626._.js",
+    "static/chunks/ca636_next_dist_client_0c1e48dd._.js",
+    "static/chunks/ca636_next_dist_6cb06f60._.js",
+    "static/chunks/ca636_@swc_helpers_cjs_3d63f727._.js",
+    "static/chunks/bloom_a0ff3932._.js",
+    "static/chunks/turbopack-bloom_7afe4856._.js"
+  ]
+}
