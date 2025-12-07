@@ -1,15 +1,51 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
 .Hero {
-  margin: 68px 40px 0 40px;
-  max-width: 1120px;
+  margin: $space-16 auto 0;
+  max-width: $max-width;
+  padding: 0 $container-padding;
+
+  @include respond(md) {
+    margin-top: $space-12;
+    padding: 0 $space-5;
+  }
+
+  @include respond(sm) {
+    margin-top: $space-10;
+    padding: 0 $space-4;
+  }
 }
-.HeroLogo {
+.LogoImage {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2.8em;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+.HeroLogo img {
   position: relative;
   width: auto;
-  margin-bottom: 44px;
+  // margin-bottom: $space-10;
+  // font-family: $font-heading;
+  // // font-size: 10rem;
 
-  font-family: "Caprasimo", sans-serif;
-  font-size: 9.3rem;
+  // font-size: 10rem;
+
+  // @include respond(xl) {
+  //   font-size: 9rem;
+  // }
+  // @include respond(lg) {
+  //   font-size: clamp(1rem, 14cqw, 100vw);
+  //   margin-bottom: 0.1em;
+  // }
 }
-.HeroImage {
+
+.HeroImage img {
   position: relative;
+  width: 100%;
+  height: auto;
 }

@@ -1,26 +1,25 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins";
+@use "../styles/typography";
+@use "../styles/utilities";
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&:wght@500&display=swap");
-@import "./variables.scss";
-/* styles/globals.css */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
-  font-family: "Outfit", sans-serif;
-  color: $regular-text;
-
-  display: block;
-  width: auto;
-  max-width: 1200px;
-
-  margin: 0 auto;
-  padding: 0 40px;
+  font-family: $font-base;
+  color: $color-text;
+  background-color: #fff;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
@@ -29,20 +28,4 @@ a:hover {
 
 ul {
   list-style: none;
-}
-
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: $primary;
-  text-transform: uppercase;
-
-  width: 97px;
-  height: 29px;
-  font-size: 11px;
-
-  border-radius: 6px;
-  color: $regular-text;
 }

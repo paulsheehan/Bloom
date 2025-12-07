@@ -1,0 +1,10 @@
+@use "variables" as *;
+
+@mixin respond($size) {
+  $breakpoint: map-get($breakpoints, $size);
+  @if $breakpoint {
+    @media (max-width: $breakpoint) {
+      @content;
+    }
+  }
+}

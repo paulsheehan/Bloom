@@ -1,13 +1,36 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
 .Carousel {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
+  gap: $space-4;
   width: 100%;
+  scroll-snap-type: x mandatory;
+  padding: $space-4 $container-padding;
+
+  @include respond(md) {
+    padding: $space-4 $space-5;
+  }
+
+  @include respond(sm) {
+    padding: $space-4 $space-4;
+  }
 }
+
 .CarouselItem {
   position: relative;
   width: 200px;
   height: 200px;
-  &:not(last-child) {
-    margin-right: 20px;
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+
+  &:not(:last-child) {
+    margin-right: $space-2;
+  }
+
+  @include respond(sm) {
+    width: 160px;
+    height: 160px;
   }
 }

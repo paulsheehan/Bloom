@@ -1,22 +1,44 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
 .Nav {
   display: flex;
   align-items: center;
   height: 82px;
-  border-bottom: 1px black solid;
+  border-bottom: 1px solid $color-text;
+  max-width: $max-width;
+  margin: 0 auto;
+
   a {
-    color: black;
+    color: inherit;
+  }
+
+  @include respond(xl) {
+    margin: 0 $space-10;
+  }
+
+  @include respond(md) {
+    display: none;
   }
 }
+
 .Logo {
   font-size: 2rem;
-  padding: 20px 0;
-
-  font-family: "Caprasimo", sans-serif;
+  padding: $space-4 0;
+  font-family: $font-heading;
 }
+
 .Menu {
   display: flex;
   margin-left: auto;
+
   .Items:not(:last-child) {
-    margin-right: 40px;
+    margin-right: $space-6;
+  }
+
+  @include respond(sm) {
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0;
   }
 }

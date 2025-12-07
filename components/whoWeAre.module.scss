@@ -1,21 +1,35 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
 .Container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   text-align: center;
+  margin: $space-20 0;
+  padding: 0 $container-padding;
 
-  margin: 120px 0;
+  @include respond(md) {
+    margin: $space-16 0;
+    padding: 0 $space-5;
+  }
+
+  @include respond(sm) {
+    margin: $space-12 0;
+    padding: 0 $space-4;
+  }
 }
 
 .Title {
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: $space-4;
   font-size: 14px;
+  letter-spacing: 0.08em;
 }
 
 .Desciption {
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  margin-bottom: $space-8;
   max-width: 1000px;
+  line-height: 1.3;
 }

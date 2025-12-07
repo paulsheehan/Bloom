@@ -4,7 +4,7 @@ import Style from "./whoWeAre.module.scss";
 export default function WhoWeAre() {
   return (
     <section className={Style.Container}>
-      <div className={Style.Title}>
+      <div className="font-heading">
         <h1>Who we are</h1>
       </div>
       <div className={Style.Desciption}>
