@@ -1,0 +1,37 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.Info {
+  display: flex;
+  margin-top: $space-20;
+  h1 {
+    font-size: $font-size-heading-1;
+  }
+  .Title {
+    text-transform: uppercase;
+    font-size: $font-size-caption;
+    margin-right: $space-20;
+  }
+}
+.Image {
+  position: relative;
+  background-color: green;
+  width: 446px;
+  height: 500px;
+  border-radius: 30px;
+}
+.PersonCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: $space-5;
+  .Name {
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-caption-large;
+  }
+  .Role {
+    font-size: $font-size-caption;
+    color: $color-text-light;
+  }
+}

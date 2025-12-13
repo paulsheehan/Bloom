@@ -8,7 +8,9 @@
   margin-bottom: $space-10;
 
   @include respond(sm) {
-    font-size: $font-size-caption-sml;
+    font-size: $font-size-display;
+    margin-top: $space-18;
+    margin-bottom: $space-10;
   }
 }
 
@@ -17,10 +19,5 @@
   max-width: 800px;
   line-height: 1.2em;
   margin-bottom: $space-10;
-  font-weight: 500;
-
-  @include respond(sm) {
-    margin: $space-12 0;
-    padding: 0 $space-4;
-  }
+  font-weight: $font-weight-medium;
 }
